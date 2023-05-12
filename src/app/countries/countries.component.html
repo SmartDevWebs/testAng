@@ -1,0 +1,15 @@
+<div class="container">
+   <!--  <country [name]="'lebanon'" [flag]="'./assets/lebanon.jpg'"></country>
+    <country [name]="'egypt'" [flag]="'./assets/egypte.jpg'"></country>
+    <country [name]="'saudi arabia'" [flag]="'./assets/saudi.jpg'"></country>
+     -->
+     <country *ngFor="let rony of Mycountries"
+     [name]="rony.name"
+     [flag]="rony.flag"
+     [population]="rony.population"
+     [capital]="rony.capital"
+
+     ></country>
+
+    
+</div>
