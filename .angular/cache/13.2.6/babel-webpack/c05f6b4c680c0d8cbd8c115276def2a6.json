@@ -1,0 +1,1 @@
+{"ast":null,"code":"export class countryInfo {\n  constructor() {\n    this.name = '';\n    this.capital = '';\n    this.flag = '';\n    this.population = 0;\n  }\n\n}","map":null,"metadata":{},"sourceType":"module"}
